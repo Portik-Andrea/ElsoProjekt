@@ -1,0 +1,3 @@
+C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/cmake-build-debug/CMakeFiles/ElsoProjekt.dir
+C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,11 @@
 #include <stdio.h>
+#include "cards.h"
 
 int main() {
-    printf("Hello, World! Hello hello\n");
+    cards a;
+    a=create();
+    adduser(&a,3);
+    setstatus(&a,2);
+    printids(a);
     return 0;
 }

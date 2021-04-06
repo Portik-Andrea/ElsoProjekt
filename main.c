@@ -5,9 +5,9 @@
 int main() {
     cards a;
     a=create();
-    adduser(&a,3);
-    setstatus(&a,2);
-    printids(a);
+    addUser(&a, 3);
+    setStatus(&a, 2);
+    printIds(a);
 
     //valamiert ha nem csokkeno sorrendbe adom az ID-t nem jo a kiiras
     //majd ra neznetek

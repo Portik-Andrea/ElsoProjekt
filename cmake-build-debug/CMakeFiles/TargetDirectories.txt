@@ -1,3 +1,0 @@
-C:/Egyetem/MasodikFelev/Adatszer I/ElsoProjekt/cmake-build-debug/CMakeFiles/ElsoProjekt.dir
-C:/Egyetem/MasodikFelev/Adatszer I/ElsoProjekt/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Egyetem/MasodikFelev/Adatszer I/ElsoProjekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "cards.h"
 #include "users.h"
+#include "tables.h"
 
 int main() {
     cards a;
@@ -29,5 +30,9 @@ int main() {
         printf("Felfasznalo(k) letrejottek.\n");
     }
     printUsers(users);
+    Table *tablacska = createTable("Tabla");
+    addUserToTable(1, tablacska);
+    addCardToTable(1, tablacska);
+    printTable(tablacska);
     return 0;
 }

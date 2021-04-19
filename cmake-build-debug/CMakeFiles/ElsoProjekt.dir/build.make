@@ -89,19 +89,79 @@ CMakeFiles/ElsoProjekt.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ElsoProjekt.dir/main.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\main.c" -o CMakeFiles\ElsoProjekt.dir\main.c.s
 
+CMakeFiles/ElsoProjekt.dir/users.c.obj: CMakeFiles/ElsoProjekt.dir/flags.make
+CMakeFiles/ElsoProjekt.dir/users.c.obj: ../users.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ElsoProjekt.dir/users.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ElsoProjekt.dir\users.c.obj   -c "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\users.c"
+
+CMakeFiles/ElsoProjekt.dir/users.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ElsoProjekt.dir/users.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\users.c" > CMakeFiles\ElsoProjekt.dir\users.c.i
+
+CMakeFiles/ElsoProjekt.dir/users.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ElsoProjekt.dir/users.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\users.c" -o CMakeFiles\ElsoProjekt.dir\users.c.s
+
+CMakeFiles/ElsoProjekt.dir/userinterface.c.obj: CMakeFiles/ElsoProjekt.dir/flags.make
+CMakeFiles/ElsoProjekt.dir/userinterface.c.obj: ../userinterface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ElsoProjekt.dir/userinterface.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ElsoProjekt.dir\userinterface.c.obj   -c "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\userinterface.c"
+
+CMakeFiles/ElsoProjekt.dir/userinterface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ElsoProjekt.dir/userinterface.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\userinterface.c" > CMakeFiles\ElsoProjekt.dir\userinterface.c.i
+
+CMakeFiles/ElsoProjekt.dir/userinterface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ElsoProjekt.dir/userinterface.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\userinterface.c" -o CMakeFiles\ElsoProjekt.dir\userinterface.c.s
+
+CMakeFiles/ElsoProjekt.dir/tables.c.obj: CMakeFiles/ElsoProjekt.dir/flags.make
+CMakeFiles/ElsoProjekt.dir/tables.c.obj: ../tables.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ElsoProjekt.dir/tables.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ElsoProjekt.dir\tables.c.obj   -c "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\tables.c"
+
+CMakeFiles/ElsoProjekt.dir/tables.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ElsoProjekt.dir/tables.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\tables.c" > CMakeFiles\ElsoProjekt.dir\tables.c.i
+
+CMakeFiles/ElsoProjekt.dir/tables.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ElsoProjekt.dir/tables.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\tables.c" -o CMakeFiles\ElsoProjekt.dir\tables.c.s
+
+CMakeFiles/ElsoProjekt.dir/cards.c.obj: CMakeFiles/ElsoProjekt.dir/flags.make
+CMakeFiles/ElsoProjekt.dir/cards.c.obj: ../cards.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ElsoProjekt.dir/cards.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ElsoProjekt.dir\cards.c.obj   -c "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cards.c"
+
+CMakeFiles/ElsoProjekt.dir/cards.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ElsoProjekt.dir/cards.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cards.c" > CMakeFiles\ElsoProjekt.dir\cards.c.i
+
+CMakeFiles/ElsoProjekt.dir/cards.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ElsoProjekt.dir/cards.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cards.c" -o CMakeFiles\ElsoProjekt.dir\cards.c.s
+
 # Object files for target ElsoProjekt
 ElsoProjekt_OBJECTS = \
-"CMakeFiles/ElsoProjekt.dir/main.c.obj"
+"CMakeFiles/ElsoProjekt.dir/main.c.obj" \
+"CMakeFiles/ElsoProjekt.dir/users.c.obj" \
+"CMakeFiles/ElsoProjekt.dir/userinterface.c.obj" \
+"CMakeFiles/ElsoProjekt.dir/tables.c.obj" \
+"CMakeFiles/ElsoProjekt.dir/cards.c.obj"
 
 # External object files for target ElsoProjekt
 ElsoProjekt_EXTERNAL_OBJECTS =
 
 ElsoProjekt.exe: CMakeFiles/ElsoProjekt.dir/main.c.obj
+ElsoProjekt.exe: CMakeFiles/ElsoProjekt.dir/users.c.obj
+ElsoProjekt.exe: CMakeFiles/ElsoProjekt.dir/userinterface.c.obj
+ElsoProjekt.exe: CMakeFiles/ElsoProjekt.dir/tables.c.obj
+ElsoProjekt.exe: CMakeFiles/ElsoProjekt.dir/cards.c.obj
 ElsoProjekt.exe: CMakeFiles/ElsoProjekt.dir/build.make
 ElsoProjekt.exe: CMakeFiles/ElsoProjekt.dir/linklibs.rsp
 ElsoProjekt.exe: CMakeFiles/ElsoProjekt.dir/objects1.rsp
 ElsoProjekt.exe: CMakeFiles/ElsoProjekt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ElsoProjekt.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable ElsoProjekt.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ElsoProjekt.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

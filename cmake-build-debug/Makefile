@@ -142,6 +142,33 @@ ElsoProjekt/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/build
 .PHONY : ElsoProjekt/fast
 
+cards.obj: cards.c.obj
+
+.PHONY : cards.obj
+
+# target to build an object file
+cards.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/cards.c.obj
+.PHONY : cards.c.obj
+
+cards.i: cards.c.i
+
+.PHONY : cards.i
+
+# target to preprocess a source file
+cards.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/cards.c.i
+.PHONY : cards.c.i
+
+cards.s: cards.c.s
+
+.PHONY : cards.s
+
+# target to generate assembly for a file
+cards.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/cards.c.s
+.PHONY : cards.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -169,6 +196,87 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/main.c.s
 .PHONY : main.c.s
 
+tables.obj: tables.c.obj
+
+.PHONY : tables.obj
+
+# target to build an object file
+tables.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/tables.c.obj
+.PHONY : tables.c.obj
+
+tables.i: tables.c.i
+
+.PHONY : tables.i
+
+# target to preprocess a source file
+tables.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/tables.c.i
+.PHONY : tables.c.i
+
+tables.s: tables.c.s
+
+.PHONY : tables.s
+
+# target to generate assembly for a file
+tables.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/tables.c.s
+.PHONY : tables.c.s
+
+userinterface.obj: userinterface.c.obj
+
+.PHONY : userinterface.obj
+
+# target to build an object file
+userinterface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/userinterface.c.obj
+.PHONY : userinterface.c.obj
+
+userinterface.i: userinterface.c.i
+
+.PHONY : userinterface.i
+
+# target to preprocess a source file
+userinterface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/userinterface.c.i
+.PHONY : userinterface.c.i
+
+userinterface.s: userinterface.c.s
+
+.PHONY : userinterface.s
+
+# target to generate assembly for a file
+userinterface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/userinterface.c.s
+.PHONY : userinterface.c.s
+
+users.obj: users.c.obj
+
+.PHONY : users.obj
+
+# target to build an object file
+users.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/users.c.obj
+.PHONY : users.c.obj
+
+users.i: users.c.i
+
+.PHONY : users.i
+
+# target to preprocess a source file
+users.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/users.c.i
+.PHONY : users.c.i
+
+users.s: users.c.s
+
+.PHONY : users.s
+
+# target to generate assembly for a file
+users.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/users.c.s
+.PHONY : users.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -178,9 +286,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ElsoProjekt
+	@echo ... cards.obj
+	@echo ... cards.i
+	@echo ... cards.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... tables.obj
+	@echo ... tables.i
+	@echo ... tables.s
+	@echo ... userinterface.obj
+	@echo ... userinterface.i
+	@echo ... userinterface.s
+	@echo ... users.obj
+	@echo ... users.i
+	@echo ... users.s
 .PHONY : help
 
 

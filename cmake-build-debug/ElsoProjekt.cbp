@@ -74,7 +74,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/cards.c">
+			<Option target="ElsoProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/cards.h">
+			<Option target="ElsoProjekt"/>
+		</Unit>
 		<Unit filename="C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/main.c">
+			<Option target="ElsoProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/tables.c">
+			<Option target="ElsoProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/tables.h">
+			<Option target="ElsoProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/userinterface.c">
+			<Option target="ElsoProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/userinterface.h">
+			<Option target="ElsoProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/users.c">
+			<Option target="ElsoProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/users.h">
 			<Option target="ElsoProjekt"/>
 		</Unit>
 		<Unit filename="C:/Users/porti/Documents/II. felev/AdatszerkezetEsStrukturak/ElsoProjekt/CMakeLists.txt">

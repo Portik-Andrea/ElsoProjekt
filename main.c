@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include "userinterface.h"
 
 int main() {
-    printf("Hello, World!\n");
+    start();
     return 0;
 }

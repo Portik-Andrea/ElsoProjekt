@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ElsoProjekt.dir/main.c.obj"
+  "CMakeFiles/ElsoProjekt.dir/userinterface.c.obj"
+  "CMakeFiles/ElsoProjekt.dir/users.c.obj"
   "ElsoProjekt.exe"
   "ElsoProjekt.exe.manifest"
   "ElsoProjekt.pdb"

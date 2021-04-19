@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Egyetem\MasodikFelev\Adatszer I\ElsoProjekt"
+CMAKE_SOURCE_DIR = "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Egyetem\MasodikFelev\Adatszer I\ElsoProjekt\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Egyetem\MasodikFelev\Adatszer I\ElsoProjekt\cmake-build-debug\CMakeFiles" "C:\Egyetem\MasodikFelev\Adatszer I\ElsoProjekt\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cmake-build-debug\CMakeFiles" "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Egyetem\MasodikFelev\Adatszer I\ElsoProjekt\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\porti\Documents\II. felev\AdatszerkezetEsStrukturak\ElsoProjekt\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -169,6 +169,60 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/main.c.s
 .PHONY : main.c.s
 
+userinterface.obj: userinterface.c.obj
+
+.PHONY : userinterface.obj
+
+# target to build an object file
+userinterface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/userinterface.c.obj
+.PHONY : userinterface.c.obj
+
+userinterface.i: userinterface.c.i
+
+.PHONY : userinterface.i
+
+# target to preprocess a source file
+userinterface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/userinterface.c.i
+.PHONY : userinterface.c.i
+
+userinterface.s: userinterface.c.s
+
+.PHONY : userinterface.s
+
+# target to generate assembly for a file
+userinterface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/userinterface.c.s
+.PHONY : userinterface.c.s
+
+users.obj: users.c.obj
+
+.PHONY : users.obj
+
+# target to build an object file
+users.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/users.c.obj
+.PHONY : users.c.obj
+
+users.i: users.c.i
+
+.PHONY : users.i
+
+# target to preprocess a source file
+users.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/users.c.i
+.PHONY : users.c.i
+
+users.s: users.c.s
+
+.PHONY : users.s
+
+# target to generate assembly for a file
+users.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElsoProjekt.dir\build.make CMakeFiles/ElsoProjekt.dir/users.c.s
+.PHONY : users.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +235,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... userinterface.obj
+	@echo ... userinterface.i
+	@echo ... userinterface.s
+	@echo ... users.obj
+	@echo ... users.i
+	@echo ... users.s
 .PHONY : help
 
 

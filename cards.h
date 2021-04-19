@@ -1,13 +1,13 @@
 //
-// Created by Zsolt on 3/25/2021.
+// Created by Zsolt on 4/16/2021.
 //
 
-#ifndef ELSOPROJEKT_CARDS_H
-#define ELSOPROJEKT_CARDS_H
-
+#ifndef LOCALISPROJEKT_CARDS_H
+#define LOCALISPROJEKT_CARDS_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 
 enum status {
     TO_DO, DOING, DONE
@@ -18,30 +18,43 @@ typedef struct {
     char name[20];
     char description[200];
     int status;
-    int presentid;
-    int *oldids;
+    char presentid[20];
+    char** oldids;
     int sizeold;
-} cards;
+} CARD;
 
-cards create();
+typedef struct{
+    int numofcards;
+    CARD* cardlist;
+} CARDS;
 
-void addUser(cards *, int);
-
-void deleteCard(cards *);
-
-void setStatus(cards *, int);
-
-void setDescription(cards *, char *);
-
-void setName(cards *, char *);
-
-int getStatus(cards);
-
-char *getName(cards);
-
-char *getDescription(cards);
-
-void printIds(cards);
+int findCard(char*,CARDS);
 
 
-#endif //ELSOPROJEKT_CARDS_H
+void createCards(CARDS*);
+void addCard(CARDS*,char*);
+void addNewUser(CARDS *,char*);
+
+void deleteCard(CARDS *,int);//findcard
+void printOldids(CARD);
+
+void setStatus(CARD *);
+
+void setData(CARDS*,int i);
+
+void setDescription(CARDS*,int i);
+
+void setName(CARDS*,int i);
+
+void getStatus(CARD);
+
+char *getName(CARD);
+
+char *getDescription(CARD);
+
+void printAccordToStatus(CARDS);
+
+void printIds(CARD);
+
+
+#endif //LOCALISPROJEKT_CARDS_H

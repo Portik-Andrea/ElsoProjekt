@@ -1,9 +1,9 @@
 //
-// Created by rajmond on 4/6/2021.
+// Created by Zsolt on 4/16/2021.
 //
 
-#ifndef ELSOPROJEKT_TABLES_H
-#define ELSOPROJEKT_TABLES_H
+#ifndef LOCALISPROJEKT_TABLES_H
+#define LOCALISPROJEKT_TABLES_H
 
 #include <string.h>
 #include <stdlib.h>
@@ -11,19 +11,30 @@
 #include "cards.h"
 
 typedef struct {
-    char *name;
-    int *cards;
-    int *users;
-    int numberOfUsers;
-    int numberOfCards;
-} Table;
+    char name[20];
+    CARDS cards;
+    char** idlist;
+    int numofids;
 
-Table* createTable (char *name);
+} TABLA;
 
-void addUserToTable (int, Table*);
+typedef struct {
+    TABLA* tablelist;
+    USERS users;
+    int numberOfTables;
+}TABLES;
 
-void addCardToTable(int, Table*);
+void createTables (TABLES* );
+void addTable(TABLES* );
+int findTable(char*,TABLES);
+int findIdInTable(TABLA tabla,char* id);
+void deleteTable(TABLES*);
+void addUserToUsers(TABLES *tables);
+void addUserToTable (TABLES* ,char*);
+void deletUserFromTable(TABLES*);
 
-void printTable(Table*);
+void addCardToTable(TABLA*);
 
-#endif //ELSOPROJEKT_TABLES_H
+void printTable(TABLES);
+
+#endif //LOCALISPROJEKT_TABLES_H

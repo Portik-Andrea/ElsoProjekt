@@ -26,7 +26,7 @@ cards create(){
     return a;
 }
 
-void adduser(cards* a,int id){
+void addUser(cards*, int){
     if ((*a).presentid==-1){
         (*a).presentid=id;
     }else{
@@ -37,29 +37,29 @@ void adduser(cards* a,int id){
     }
 }
 
-void deletcard(cards* a){
+void deleteCard(cards*){
     free((*a).oldids);
 }
-void setstatus(cards* a,int b){
+void setStatus(cards*, int){
     (*a).status=b;
 }
-void setdescription(cards* a,char* b){
+void setDescription(cards*, char*){
     strcpy((*a).description,b);
 }
-void setname(cards* a,char* b){
+void setName(cards*, char*){
     strcpy((*a).name,b);
 }
-int getstatus(cards a){
+int getStatus(cards){
     return a.status;
 }
 
-char* getname(cards a){
+char* getName(cards){
     return a.name;
 }
-char* getdescription(cards a){
+char* getDescription(cards){
     return a.description;
 }
-void printids(cards a){
+void printIds(cards){
     printf("Jelenlegi felhasznalo idja: %d\n",a.presentid);
     printf("A kovetkezo szemelyek dolgoztak meg rajta: ");
     for(int i=0;i<a.sizeold;i++){

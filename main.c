@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include "cards.h"
 #include "users.h"
+#include "tables.h"
 
 int main() {
     cards a;
     a=create();
-    adduser(&a,3);
-    setstatus(&a,2);
-    printids(a);
+    addUser(&a, 3);
+    setStatus(&a, 2);
+    printIds(a);
 
     //valamiert ha nem csokkeno sorrendbe adom az ID-t nem jo a kiiras
     //majd ra neznetek
@@ -29,5 +30,9 @@ int main() {
         printf("Felfasznalo(k) letrejottek.\n");
     }
     printUsers(users);
+    Table *tablacska = createTable("Tabla");
+    addUserToTable(1, tablacska);
+    addCardToTable(1, tablacska);
+    printTable(tablacska);
     return 0;
 }
